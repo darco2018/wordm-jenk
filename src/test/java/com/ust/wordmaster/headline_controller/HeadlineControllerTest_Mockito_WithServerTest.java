@@ -24,7 +24,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.BDDMockito.given;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class HeadlineControllerTest_Mockito_WithServer {
+public class HeadlineControllerTest_Mockito_WithServerTest {
 
     @MockBean
     private HeadlineFacade facade;

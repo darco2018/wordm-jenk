@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
-public class HeadlineFacadeTest_WithServer {
+public class HeadlineFacade_WithServerTest {
 
     @Autowired
     private HeadlineFacade facade;

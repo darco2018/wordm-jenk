@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @Sql(value = "/delete-userdata.sql", config = @SqlConfig(transactionMode = SqlConfig.TransactionMode.ISOLATED),
         executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT) //this will autowire TestRestTemplate
-public class UserControllerTest_Integration {
+public class UserControllerIntegrationTest {
 
     private static final String BASE_URL = "/api/users/";
     @Autowired

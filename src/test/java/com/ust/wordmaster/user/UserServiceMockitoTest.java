@@ -11,7 +11,7 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import java.util.Optional;
 
 @SpringBootTest
-public class UserServiceTest_Mockito {
+public class UserServiceMockitoTest {
 
     @Autowired
     private UserService userService;

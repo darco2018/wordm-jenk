@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RangeAnalyser5000Test_2 {
+class RangeAnalyser5000_2_Test {
 
     public static final String DICTIONARY_FILE = "dictionary5000.csv";
     private static CorpusDictionary5000 corpusDictionary; // tests specific for CorpusDictionary5000

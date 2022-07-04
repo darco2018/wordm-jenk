@@ -12,7 +12,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
-public class HeadlineFacadeTest_FromFile {
+public class HeadlineFacade_FromFileTest {
 
     @Autowired
     private HeadlineFacade facade;

@@ -14,7 +14,7 @@ import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-public class UserServiceTest_PureMockito {
+public class UserServicePureMockitoTest {
 
     @InjectMocks
     private UserService userService;

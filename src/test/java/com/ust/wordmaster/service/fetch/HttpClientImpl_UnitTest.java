@@ -11,7 +11,7 @@ import java.net.URL;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class HttpClientImplTest_Unit {
+class HttpClientImpl_UnitTest {
 
     public static final String BBC_URL = "https://www.bbc.com/";
     HttpClient fetchingService = new HttpClientImpl(new RestTemplateBuilder());
