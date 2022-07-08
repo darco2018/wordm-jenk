@@ -20,7 +20,7 @@ public class HeadlineFacade_FromFileTest {
     @Test
     void givenBBCHtmlFile_whenParsedAndProcessed_shouldReturnExactNumberOfHeadlines() {
 
-        List<RangedText> rangedTexts = facade.processHeadlinesFromHtmlFile(0, 5000, "XXXbbc",
+        List<RangedText> rangedTexts = facade.processHeadlinesFromHtmlFile(0, 5000, "bbc",
                 Paths.get("bbc.html"));
 
         assertEquals(65, rangedTexts.size());
