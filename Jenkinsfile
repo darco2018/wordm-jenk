@@ -15,11 +15,12 @@ pipeline {
                 sh './mvnw clean package -Dspring.profiles.active=dev -V  -Dsurefire.useFile=false'
             }
         }
-        post {
+    }
+
+    post {
                 always {
                     junit '**/target/surefire-reports/TEST-*.xml'
                     archiveArtifacts 'target/*.jar'
                 }
-        }
     }
 }
