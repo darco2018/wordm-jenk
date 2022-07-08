@@ -9,7 +9,7 @@ pipeline {
         pollSCM '* * * * *'
     }
 
-    stages {       
+    stages {
         stage('Build') {
             steps {
                 sh './mvnw clean package -Dspring.profiles.active=dev -V  -Dsurefire.useFile=false'
